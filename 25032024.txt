@@ -1,0 +1,37 @@
+#include <iostream>
+
+int main() {
+    std::cout << "Hello, World!" << std::endl;
+    return 0;
+}
+
+#include <iostream>
+#include <string>
+
+int main() {
+    std::string name;
+    std::cout << "Введите ваше имя: ";
+    std::cin >> name;
+    std::cout << "Привет, " << name << "! Добро пожаловать в мир программирования!" << std::endl;
+    return 0;
+}
+
+#include <iostream>
+
+int main() {
+    int num1, num2;
+    
+    // Запрашиваем у пользователя два числа
+    std::cout << "Введите первое число: ";
+    std::cin >> num1;
+    std::cout << "Введите второе число: ";
+    std::cin >> num2;
+    
+    // Вычисляем сумму чисел
+    int sum = num1 + num2;
+    
+    // Выводим результат
+    std::cout << "Сумма чисел: " << sum << std::endl;
+    
+    return 0;
+}
